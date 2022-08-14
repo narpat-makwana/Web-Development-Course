@@ -1,0 +1,59 @@
+
+
+.main {
+  height:575px;
+  width: 550px;
+  margin: auto;
+  padding: 20px;
+  border: solid rgb(73, 70, 70);
+  border-radius: 4px;
+}
+
+.info{
+  padding: 12px;
+  margin: auto;
+  border: 1px solid rgb(224, 220, 220);
+  border-radius: 4px;
+  background-color: rgb(255, 247, 247);
+}
+
+.btn{
+  padding: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: medium;
+  width: 83%;
+
+  
+}
+
+.opt{
+  padding: 10px;
+  margin: auto;
+
+}
+#dt{
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;  
+
+}
+
+#sbox{
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 45%;
+
+}
+.btn2{
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid rgb(129, 122, 122);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#sub{
+  text-align: center;
+}

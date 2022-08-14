@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Long Form</title>
+    <style>
+        .longform {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 40%;
+            margin: 10px;
+            padding: 20px 23px;
+            background-color: grey;
+            border: grey;
+
+        }
+
+        .longform input {
+            padding: 4px;
+            width: 60%;
+            font-weight: bold;
+            font-size: medium;
+
+
+        }
+
+        .longform select {
+            padding: 4px;
+            width: 60%;
+            font-weight: bold;
+            font-size: medium;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="longform">
+        <h3><label><b>Personal Information</b></label></h3>
+        First Name: <input type="text">
+        Last Name: <input type="text">
+        Date Of Birth: <input type="date" name="birthdate" id="bdate">
+        Gender: <select name="Gender" id="txt">
+            <option value="Male" selected>Male</option>
+            <option value="Femal">Female</option>
+        </select>
+        <h3><label><b>Account Information</b></label></h3>
+        Email: <input type="email">
+        Retype Email: <input type="email">
+        Password: <input type="text">
+        Retype Password: <input type="text">
+        Security Question: <select name="quest" id="txt">
+            <option value="Favourite pet" selected></option>
+            <option value="Pet Name"></option>
+            <option value="School name"></option>
+        </select>
+        Security Answer: <input type="text">
+
+        <h3><label><b>Contact Information</b></label></h3>
+        Address: <input type="text">
+        City: <input type="text">
+        State: <select name="State" id="txt">
+            <option value="maharashtra" selected>Maharashtra</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="UP">Uttar Pradesh</option>
+
+        </select><br>
+        Zip <input type="text">
+        Phone: <input type="text">
+
+    </div>
+
+
+</body>
+
+</html>

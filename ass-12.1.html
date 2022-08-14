@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FeedBack</title>
+    <style>
+        .cont{
+            height: fit-content;
+            width: fit-content;
+            padding: 4px;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 2px;
+            box-shadow:10px 10px 10px grey;
+
+        }
+        .tbox{
+            padding: 2px;
+            margin: 3px;
+            background-color: rgb(248, 244, 244);
+        }
+        
+        #btn{
+          text-align: right;  
+        }
+
+    </style>    
+</head>
+
+<body>
+    <div class="cont">
+        <div class="head">
+            <h5>Send FeedBack</h5>
+        </div>
+            <div id="main">
+                <input type="email" class="tbox" placeholder="Email"><br>
+                <textarea name="msg" class="tbox" cols="20" rows="5" class="tbox"  placeholder="Message"></textarea>
+            </div>
+                 <div id="btn">
+                    <input type="submit" value="send">
+                 </div>   
+    </div>
+</body>
+</html>
